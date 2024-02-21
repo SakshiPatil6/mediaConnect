@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+   display: flex;
+   justify-content: space-between;
+   margin:40px;
+   margin-top: 15rem;
+}
+.containner{
+    margin:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dicision{
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+    justify-content: center;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width:auto;
+    gap:10px;
+
+}
+button{
+    background-color: #2a35d8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+
+    border-radius: 20px;
+    opacity: 0.9;
+}
+img{
+    border-radius: 50%;
+    width:100px;
+    height:60px;
+}
